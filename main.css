@@ -1,0 +1,43 @@
+:root {
+    --green: #0fc041;
+    --white: #f1f1f1;
+    --black: #181818;
+}
+
+#main {
+    background: var(--black);
+    color: var(--white);
+    font-family: helvetica;
+}
+
+#title {
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--green);
+    margin-bottom: 0.25em;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    width: 15%;
+}
+
+#labs {
+    border-left: 4px solid var(--white);
+    border-right: 4px solid var(--white);
+    border-radius: 3em;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.25em;
+    margin: 0.25em;
+}
