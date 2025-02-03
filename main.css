@@ -8,7 +8,6 @@
 .dark {
     background: var(--black);
     color: var(--white);
-    font-family: helvetica;
 }
 
 .dark a:link {
